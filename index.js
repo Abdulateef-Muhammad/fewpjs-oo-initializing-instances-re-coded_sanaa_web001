@@ -7,8 +7,9 @@ class Breakfast {
 }
 
 class Lunch {
-  constructor(salad, drink) {
+  constructor(salad, soup, drink) {
     this.salad = salad;
+    this.soup = soup;
     this.drink = drink;
   }
 }
@@ -19,6 +20,5 @@ class Dinner {
     this.soup = soup;
     this.entree = entree;
     this._dessert = dessert;
-    this.consomme = `brocccoli cheddar soup ${this.soup}`;
   }
 }
