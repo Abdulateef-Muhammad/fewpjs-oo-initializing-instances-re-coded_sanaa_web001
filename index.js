@@ -19,6 +19,6 @@ class Dinner {
     this.soup = soup;
     this.entree = entree;
     this._dessert = dessert;
-    this.consomme = `broccoli cheddar soup ${this.soup}`;
+    this.consomme = `brocccoli cheddar soup ${this.soup}`;
   }
 }
